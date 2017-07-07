@@ -5,5 +5,8 @@ public class Casting {
 
 		System.out.println("Numero: " + numero);
 		System.out.println("PI: " + pi);
+
+		int cast = (int) pi;
+		System.out.println("Casting: " + cast);
 	}
 }
